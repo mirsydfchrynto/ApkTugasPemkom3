@@ -30,8 +30,8 @@
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="btnEntriData" min="-2" pref="147" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btnDoSerialization" min="-2" pref="151" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnDoSerialization" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                       <Component id="btnDoDeserialization" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -58,7 +58,7 @@
   <SubComponents>
     <Component class="javax.swing.JButton" name="btnEntriData">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1. Entri Data Produk"/>
+        <Property name="text" type="java.lang.String" value="1. Entri Data User"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEntriDataActionPerformed"/>

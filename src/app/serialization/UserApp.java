@@ -76,7 +76,7 @@ public class UserApp extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        btnEntriData.setText("1. Entri Data Produk");
+        btnEntriData.setText("1. Entri Data User");
         btnEntriData.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEntriDataActionPerformed(evt);
@@ -125,8 +125,8 @@ public class UserApp extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(btnEntriData, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnDoSerialization, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnDoSerialization)
+                        .addGap(4, 4, 4)
                         .addComponent(btnDoDeserialization)))
                 .addGap(10, 10, 10))
         );
